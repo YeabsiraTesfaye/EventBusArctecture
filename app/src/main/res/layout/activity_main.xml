@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="10dp" android:id="@+id/phone" android:layout_weight="1"
+            android:hint="Phone Number" android:textSize="24sp" android:inputType="number|phone"/>
+    <Button
+            android:text="Call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/call" android:layout_weight="1"/>
+    <Button
+            android:text="Call Log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/call_log" android:layout_weight="1"/>
+    <Button
+            android:text="Contacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/contact" android:layout_weight="1"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="10dp" android:id="@+id/url" android:layout_weight="1"
+            android:hint="URL" android:textSize="24sp"/>
+    <Button
+            android:text="Browser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/browser" android:layout_weight="1"/>
+    <Button
+            android:text="Gallary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/gallary" android:layout_weight="1"/>
+    <Button
+            android:text="Camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/camera" android:layout_weight="1"/>
+    <Button
+            android:text="Map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/map" android:layout_weight="1"/>
+</LinearLayout>
